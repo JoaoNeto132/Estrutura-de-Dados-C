@@ -1,0 +1,224 @@
+1 - #include <stdio.h>
+int main()
+{
+    int n =1, n1, n2, n3, cod;
+    
+    while (n > 0){
+        printf("Informe o código do aluno: ");
+        scanf("%d", & cod);
+        
+        if(cod != 0){
+            short media;
+            printf("Informe as três notas do aluno: ");
+            scanf("%d %d %d", & n1, & n2, & n3);
+            printf("A média das notas é: %d \n", media =  (n1 + n2 + n3) / 3);
+        }
+        else {
+            printf("Fim");
+            break;
+        }
+    }
+}
+
+2 - #include <stdio.h>
+int main(){
+    
+    int num, soma = 0, cont = 0;
+    float media;
+    
+    printf("Digite um numero inteiro. Digite zero para encerrar a execucao: ");
+    scanf ("%d", &num);
+  
+    while (num != 0){
+        if (num % 2 == 0){
+	        soma = soma + num;
+	        cont++;
+	}
+        printf ("Digite um numero inteiro. Digite zero para encerrar a execucao: ");
+        scanf ("%d", & num);
+    }
+    if (cont > 0){
+        media = (float) soma / cont;
+        printf ("A media eh %.2f\n", media);
+    }
+    else
+        printf ("Nenhum valor foi digitado");
+        system ("pause");
+}
+
+3 - #include <stdio.h>
+int main()
+{
+    int i1, i2, i3, i4, n1;
+
+    do{
+        printf("Digite um número: ");
+        scanf("%d", & n);
+        
+        if(n1 > 0 && n1 < 26){
+            i1++;
+        }
+        if(n1 > 25 && n1 < 51){
+            i2++;
+        }
+        if(n1 > 50 && n1 < 76){
+            i3++;
+        }
+        if(n1 > 75 && n1 < 101){
+            i4++;
+        }
+    } while(n1 >= 0); 
+    printf("A quantidade de 0 a 25 é %d\nA  quantidade de 26 a 50 %d\n A quantidade de 51 a 75 %d\n A quantidade de 76 a 100 %d", i1, i2, i3, i4);
+}
+
+
+4 - #include <stdio.h>
+int main()
+{
+    int idade, n1, menorIdade, maiorIdade = 0, quant = 0;
+    char sexo;
+    float salario, media = 0;
+    
+    for(n1 = 1; n < 16; n++){
+        printf("Informe sua idade, sexo e salario: ");
+        scanf("%d %c %g", & idade, & sexo, & salario);
+        
+        if(menorIdade > idade){
+            menorIdade = idade;
+        }
+        if(maiorIdade < idade){
+            maiorIdade = idade;
+        }
+        
+        if(sexo == 'F' && salario <= 100){
+            quant++;
+        }
+    }
+    
+    printf("A média salarial é de R$ %g \n", media = salario / 16);
+    printf("A maior idade é: %d\ne a menor idade é: %d \n", maiorIdade, menorIdade);
+    printf("A quantidade de mulheres é de: %d", quant);
+}
+
+5 - #include <stdio.h>
+int main()
+{
+    int idade, quant, maiorIdade = 0;
+    char sexo, olho, cabelo;
+    
+    while(1){
+        printf("Informe sua idade, seu sexo, a cor dos seus olhos e cabelos: ");
+        scanf("%d %c %c %c", & idade, & sexo, & olho, & cabelo);
+    
+        if(idade == -1){
+            break;
+        }
+    
+        if(maiorIdade < idade){
+            maiorIdade = idade;
+        }
+    
+        if(sexo == 'F' && idade > 18 && idade < 35 && olho == 'V' && cabelo == 'L'){
+            quant++;
+        }
+    }
+    printf("A maior idade dos habitantes é: %d \n", maiorIdade);
+    printf("A quantidade de indivíduos é: %d", quant);
+}
+
+6- #include <stdio.h>
+int main()
+{
+    int n1; 
+    
+    for(n1 = 1000; n1 < 2000; n++){
+        printf("%d \n", n1);
+    }
+    
+    for(n1 = 1000; n < 2000; n++){
+        if(n % 11 == 5){
+            printf("%d \n", n1);
+        }
+    }
+}
+
+7- #include <stdio.h>
+int main()
+{
+    int pessoasSalarios, numPessoas;
+    float maiorSalario, salario, media, filho, mediaSalario, mediaFilhos, porcentagemSalario;
+    
+    while(1){    
+        printf("Informe o seu salario e a quantidade de filhos: ");
+        scanf("%g %g", & salario, & filho);
+    
+        numPessoas++;
+    
+        if(salario < 0){
+            break;
+        }
+        
+        if(maiorSalario < salario){
+            maiorSalario = salario;
+        }
+    
+        if(salario <= 100){
+            pessoasSalarios++;
+        }
+        
+        mediaSalario += salario;
+        mediaFilhos += filho;
+    
+    }
+    printf("A media salarial é de: R$ %g \n", mediaSalario = mediaSalario / numPessoas);
+    printf("A media de filhos é de: %g \n", mediaFilhos = mediaFilhos / numPessoas);
+    printf("O maior salario é de: R$ %g \n", maiorSalario);
+    printf("O percentual é de: %g pessoas", porcentagemSalario = (pessoasSalarios / (float)numPessoas) * 100);   
+}
+
+8- #include <stdio.h>
+int main()
+{
+    int n,1 cont;
+    float media;
+    
+    for(n1 = 13; n1 < 74; n++){
+        if(n1 % 2 == 0){
+            media += n;
+            cont++;
+        }
+    }
+    printf("A média é: %g", media = media / n1);
+}
+
+9- #include <stdio.h>
+int main()
+{
+    int num, n1;
+    
+    for(n1 = 100; n1 < 201; n++){
+        if(n1 % 2 != 0){
+            printf("%d \n", n1);
+        }
+    }
+}
+
+10- #include <stdio.h>
+int main()
+{
+    int n1, cont1, cont2, num;
+    
+    for(n1 = 1; n1 < 11; n++){
+        
+        printf("Informe 10 valores: ");
+        scanf("%d", & num);
+        
+        if(num > 9 && num < 21){
+            cont1++;
+        }
+        else{
+            cont2++;
+        }
+    }
+    printf("Dentro do intervalo %d \n Fora do intervalo %d", cont1, cont2);
+}
