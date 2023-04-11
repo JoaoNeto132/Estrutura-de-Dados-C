@@ -1,3 +1,3 @@
 # Estrutura-de-Dados-C
 
-## Todos os exercícios que fiz em estrutura de dados.
+## Todos os exercícios que fiz de IF em C.
