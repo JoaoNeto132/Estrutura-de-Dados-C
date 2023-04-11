@@ -1,4 +1,5 @@
-1 - #include <stdio.h>
+//Ex 31//
+#include <stdio.h>
 
 void ParImpar(int num) {
     if (num % 2 == 0) {
@@ -16,7 +17,8 @@ int main() {
     return 0;
 }
 
-2 - #include <stdio.h>
+//Ex 32//
+#include <stdio.h>
 
 void Positivo(int num) {
     if (num >= 0) {
@@ -34,8 +36,8 @@ int main() {
     return 0;
 }
 
-
-3 - #include <stdio.h>
+//Ex 33//
+#include <stdio.h>
 #include <math.h>
 
 float delta(float a, float b, float c) {
@@ -78,7 +80,8 @@ int main() {
   return 0;
 }
 
-4 - #include <stdio.h>
+//Ex 34//
+#include <stdio.h>
 #include <math.h>
 
 float delta(float a, float b, float c) {
@@ -121,7 +124,8 @@ int main() {
   return 0;
 }
 
-5 - #include <stdio.h>
+//Ex 35//
+#include <stdio.h>
 
 int max(int a, int b) {
     if (a > b) {
@@ -140,7 +144,8 @@ int main() {
     return 0;
 }
 
-6 - #include <stdio.h>
+//Ex 36//
+#include <stdio.h>
 
 int min(int a, int b) {
     if (a < b) {
@@ -159,7 +164,8 @@ int main() {
     return 0;
 }
 
-7 - #include <stdio.h>
+//Ex 37//
+#include <stdio.h>
 
 int Maximo(int a, int b, int c) {
     int maior = a;
@@ -181,7 +187,8 @@ int main() {
     return 0;
 }
 
-8 - #include <stdio.h>
+//Ex 38//
+#include <stdio.h>
 
 int Minimo(int a, int b, int c) {
     int menor = a;
@@ -204,7 +211,8 @@ int main() {
 }
 
 
-9 - #include <stdio.h>
+//Ex 39//
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -219,7 +227,8 @@ int main() {
     return 0;
 }
 
-10 - #include <stdio.h>
+//Ex 40//
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 

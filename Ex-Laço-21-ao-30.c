@@ -1,4 +1,5 @@
-1 - #include <stdio.h>
+//Ex 21//
+#include <stdio.h>
 int main()
 {
     int n =1, n1, n2, n3, cod;
@@ -20,7 +21,8 @@ int main()
     }
 }
 
-2 - #include <stdio.h>
+//Ex 22//
+#include <stdio.h>
 int main(){
     
     int num, soma = 0, cont = 0;
@@ -46,7 +48,8 @@ int main(){
         system ("pause");
 }
 
-3 - #include <stdio.h>
+//Ex 23//
+#include <stdio.h>
 int main()
 {
     int i1, i2, i3, i4, n1;
@@ -71,8 +74,8 @@ int main()
     printf("A quantidade de 0 a 25 é %d\nA  quantidade de 26 a 50 %d\n A quantidade de 51 a 75 %d\n A quantidade de 76 a 100 %d", i1, i2, i3, i4);
 }
 
-
-4 - #include <stdio.h>
+//Ex 24//
+#include <stdio.h>
 int main()
 {
     int idade, n1, menorIdade, maiorIdade = 0, quant = 0;
@@ -100,7 +103,8 @@ int main()
     printf("A quantidade de mulheres é de: %d", quant);
 }
 
-5 - #include <stdio.h>
+//Ex 25//
+#include <stdio.h>
 int main()
 {
     int idade, quant, maiorIdade = 0;
@@ -126,7 +130,8 @@ int main()
     printf("A quantidade de indivíduos é: %d", quant);
 }
 
-6- #include <stdio.h>
+//Ex 26//
+#include <stdio.h>
 int main()
 {
     int n1; 
@@ -142,7 +147,8 @@ int main()
     }
 }
 
-7- #include <stdio.h>
+//Ex 27//
+#include <stdio.h>
 int main()
 {
     int pessoasSalarios, numPessoas;
@@ -176,7 +182,8 @@ int main()
     printf("O percentual é de: %g pessoas", porcentagemSalario = (pessoasSalarios / (float)numPessoas) * 100);   
 }
 
-8- #include <stdio.h>
+//Ex 28//
+#include <stdio.h>
 int main()
 {
     int n,1 cont;
@@ -191,7 +198,8 @@ int main()
     printf("A média é: %g", media = media / n1);
 }
 
-9- #include <stdio.h>
+//Ex 29//
+#include <stdio.h>
 int main()
 {
     int num, n1;
@@ -203,7 +211,8 @@ int main()
     }
 }
 
-10- #include <stdio.h>
+//Ex 30//
+#include <stdio.h>
 int main()
 {
     int n1, cont1, cont2, num;

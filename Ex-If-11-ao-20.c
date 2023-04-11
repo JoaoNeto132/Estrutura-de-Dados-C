@@ -1,4 +1,5 @@
-1 - #include <stdio.h>
+//Ex 11//
+#include <stdio.h>
 
 int main() {
     int num1, num2, num3, menor, maior;
@@ -17,7 +18,8 @@ int main() {
     printf("Menor: %d\tMaior: %d\n", menor, maior);
 }
 
-2 - #include <stdio.h>
+//Ex 12//
+#include <stdio.h>
 
 int main() {
   int num1, num2;
@@ -34,7 +36,8 @@ int main() {
      printf("\n\n%d e %d nao sao multiplos.", num1, num2);
 }
 
-3 - #include <stdio.h>
+//Ex 13//
+#include <stdio.h>
 
 int main(){
 int idade;
@@ -47,7 +50,8 @@ else if(idade < 18) printf("juvenil B");
 else printf("Adulto\n");
 }
 
-4 - #include <stdio.h>
+//Ex 14//
+#include <stdio.h>
 
 int main(){
 int codigo, quantidade;
@@ -70,7 +74,8 @@ printf ("Total a pagar: %.2f", preco);}
 else printf ("Código inválido.");
 }
 
-5 - #include <stdio.h>
+//Ex 15//
+#include <stdio.h>
 
 int main(){
 
@@ -95,9 +100,9 @@ int main(){
     }
 }
 
-6 - #include<math.h>
-    #include<stdio.h>
-
+//Ex 16//
+#include<math.h>
+#include<stdio.h>
 
 int main(){
 
@@ -133,8 +138,9 @@ printf("ENTRADA INVALIDA\n");
 }	
 }
 
-7 - #include<stdio.h>
-    #include<math.h>
+//Ex 17//
+#include<stdio.h>
+#include<math.h>
 
 int main(){
   int i, a, b, c;
@@ -204,7 +210,8 @@ int main(){
 	}
 }
 
-8 - #include <stdio.h>
+//Ex 18//
+#include <stdio.h>
 
     int main(){
     int n1, n2, n3;
@@ -228,7 +235,8 @@ int main(){
         printf("%d%d%d", n3, n2, n1);
 }
 
-9 - #include <stdio.h>
+//Ex 19//
+#include <stdio.h>
 
 int main() {
     int anos, meses, dias, total;
@@ -241,7 +249,8 @@ int main() {
     printf("A sua idade em dias é %d\n", total);
 }
 
-10 - #include <stdio.h>
+//Ex 20//
+#include <stdio.h>
 
 int main()
 {

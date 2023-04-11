@@ -1,7 +1,7 @@
-1-----
+//Ex 1//
 #include <stdio.h>
 
-main () {
+int main () {
      float Deposito, taxa, Rendimento, RendimentoTotal=0;
 
      printf ("Informe o valor do deposito: ");
@@ -14,7 +14,7 @@ main () {
      printf ("O valor do rendimento final é: %f", RendimentoTotal);
 }
 
-2-----
+//Ex 2//
 #include <stdio.h>
 
 int main()
@@ -28,7 +28,7 @@ int main()
     printf("Arredondado: %d\n", (int)round(numero));
 }
 
-3-----
+//Ex 3//
 #include <stdio.h>
 #include <math.h>
 
@@ -42,7 +42,7 @@ int main() {
   printf("Resultado: %d \n", num );
 }
 
-4-----
+//Ex 4//
 #include <stdio.h>
 #include <math.h>
 
@@ -56,7 +56,7 @@ int main() {
   printf("A raiz do numero é: %d \n", raiz);
 }
 
-5-----
+//Ex 5//
 #include <stdio.h>
 
 int main()
@@ -69,7 +69,7 @@ int main()
     printf("A quantidade de salários mínimos é: %f\n", salarioFunc/salarioMin);
 }
 
-6-----
+//Ex 6//
 #include <stdio.h>
  
 int main(){
@@ -83,7 +83,7 @@ int main(){
     printf("AREA = %f m2 \n", area);
 }
 
-7-----
+//Ex 7//
 #include <stdio.h>
  
 int main(){
@@ -95,7 +95,7 @@ int main(){
 	printf("Area é = %f m2 \n", area);
 }
 
-8-----
+//Ex 8//
 #include <stdio.h>
 
 int main(){
@@ -111,7 +111,7 @@ int main(){
     printf("A area do trapezio e: %f" m2, area);
 }
 
-9-----
+//Ex 9//
 #include <stdio.h>
 
 int main(){
@@ -125,7 +125,7 @@ int main(){
   printf("Area do losango é = %f m2 \n",area);
 }
 
-10-----
+//Ex 10//
 #include <stdio.h>
 
 int main(){
